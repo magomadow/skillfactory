@@ -1,0 +1,83 @@
+@font-face{
+    src: url('../fonts/Roboto-Black.ttf');
+    font-family:'Roboto';
+}
+
+@font-face{
+    src: url('../fonts/Roboto-Thin.ttf');
+    font-family:'RobotoThin';
+}
+
+@font-face{
+    src: url('../fonts/Roboto-BlackItalic.ttf');
+    font-family:'Roboto BlackItalic';
+}
+body{
+    font-family:'Roboto BlackItalic';
+}
+
+.nav_li{
+    display: inline;
+    margin-right: 15px;
+    list-style: none;
+    padding: 24px;
+    font-size: 20px;
+   
+}
+.nav_link{
+    color:chocolate;
+    
+}
+.nav{
+    text-align: center;
+    
+}
+.nav_header{
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    font-family:'Roboto';
+} 
+img{
+    width: 400px;
+    border: 1px solid wheat ;
+}
+
+ .title{
+    border-left: 5px solid chocolate;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.main{
+    display:flex;
+    justify-content: space-between; 
+    width: 300px;
+    
+}
+.sidebar{
+padding-top: 40px;
+}
+.img{
+    margin-right:50px;
+}
+.nav_header_two{
+    display:block;
+    width:300px;
+    height: 300px;
+}
+.nav_header_two{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.adress{
+    font-size: 18px;
+    font-family:'RobotoThin';
+}
+.footer{
+    text-align: center;
+    cursor: pointer;
+    padding-top: 200px;
+}
